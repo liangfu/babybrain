@@ -19,23 +19,25 @@ _ATLAS_.infoWindow = null;
 
 // create dictionary "label name" : "label value"
 _ATLAS_.labels = {
-  "Accumbens area": 26,
-  "Amygdala": 18,
-  "Caudate": 11,
-  "Cerebellum Cortex": 8,
-  "Cerebral Cortex": 3,
-  "Hippocampus": 17,
-  "Lateral Ventricle": 4,
-  "Medulla": 175,
-  "Midbrain": 173,
-  "Pallidum": 13,
-  "Pons": 174,
-  "Putamen": 12,
-  "Thalamus": 9,
-  "Ventral DC": 28,
-  "Vermis": 172,
-  "3rd Ventricle": 14,
-  "4th Ventricle": 15
+	"FPm_L", 1,
+	"FPm_R", 2
+  // "Accumbens area": 26,
+  // "Amygdala": 18,
+  // "Caudate": 11,
+  // "Cerebellum Cortex": 8,
+  // "Cerebral Cortex": 3,
+  // "Hippocampus": 17,
+  // "Lateral Ventricle": 4,
+  // "Medulla": 175,
+  // "Midbrain": 173,
+  // "Pallidum": 13,
+  // "Pons": 174,
+  // "Putamen": 12,
+  // "Thalamus": 9,
+  // "Ventral DC": 28,
+  // "Vermis": 172,
+  // "3rd Ventricle": 14,
+  // "4th Ventricle": 15
 };
 
 
@@ -43,36 +45,38 @@ _ATLAS_.labels = {
 for (m in _ATLAS_.meshes) {
 
 	var _meshes = [
-		"Model_26_Left-Accumbens-area.vtk",
-		"Model_18_Left-Amygdala.vtk",
-		"Model_11_Left-Caudate.vtk",
-		"Model_8_Left-Cerebellum-Cortex.vtk",
-		"Model_3_Left-Cerebral-Cortex.vtk",
-		"Model_17_Left-Hippocampus.vtk",
-		"Model_4_Left-Lateral-Ventricle.vtk ",
-		"Model_13_Left-Pallidum.vtk",
-		"Model_12_Left-Putamen.vtk",
-		"Model_9_Left-Thalamus.vtk",
-		"Model_28_Left-VentralDC.vtk",
+		"Model_1_Left-Frontal-Medial.vtk",
+		"Model_2_Right-Frontal-Medial.vtk"
+		// "Model_26_Left-Accumbens-area.vtk",
+		// "Model_18_Left-Amygdala.vtk",
+		// "Model_11_Left-Caudate.vtk",
+		// "Model_8_Left-Cerebellum-Cortex.vtk",
+		// "Model_3_Left-Cerebral-Cortex.vtk",
+		// "Model_17_Left-Hippocampus.vtk",
+		// "Model_4_Left-Lateral-Ventricle.vtk ",
+		// "Model_13_Left-Pallidum.vtk",
+		// "Model_12_Left-Putamen.vtk",
+		// "Model_9_Left-Thalamus.vtk",
+		// "Model_28_Left-VentralDC.vtk",
 
-		"Model_58_Right-Accumbens-area.vtk",
-		"Model_54_Right-Amygdala.vtk",
-		"Model_50_Right-Caudate.vtk",
-		"Model_47_Right-Cerebellum-Cortex.vtk",
-		"Model_42_Right-Cerebral-Cortex.vtk",
-		"Model_53_Right-Hippocampus.vtk",
-		"Model_43_Right-Lateral-Ventricle.vtk ",
-		"Model_52_Right-Pallidum.vtk",
-		"Model_51_Right-Putamen.vtk",
-		"Model_48_Right-Thalamus.vtk",
-		"Model_60_Right-VentralDC.vtk",
+		// "Model_58_Right-Accumbens-area.vtk",
+		// "Model_54_Right-Amygdala.vtk",
+		// "Model_50_Right-Caudate.vtk",
+		// "Model_47_Right-Cerebellum-Cortex.vtk",
+		// "Model_42_Right-Cerebral-Cortex.vtk",
+		// "Model_53_Right-Hippocampus.vtk",
+		// "Model_43_Right-Lateral-Ventricle.vtk ",
+		// "Model_52_Right-Pallidum.vtk",
+		// "Model_51_Right-Putamen.vtk",
+		// "Model_48_Right-Thalamus.vtk",
+		// "Model_60_Right-VentralDC.vtk",
 
-		"Model_175_Medulla.vtk",
-		"Model_173_Midbrain.vtk",
-		"Model_174_Pons.vtk",
-		"Model_172_Vermis.vtk",
-		"Model_14_3rd-Ventricle.vtk",
-		"Model_15_4th-Ventricle.vtk"
+		// "Model_175_Medulla.vtk",
+		// "Model_173_Midbrain.vtk",
+		// "Model_174_Pons.vtk",
+		// "Model_172_Vermis.vtk",
+		// "Model_14_3rd-Ventricle.vtk",
+		// "Model_15_4th-Ventricle.vtk"
 	];
 
 	_ATLAS_.meshes[m] = new Array(_meshes.length);
