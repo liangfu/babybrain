@@ -19,8 +19,8 @@ _ATLAS_.infoWindow = null;
 
 // create dictionary "label name" : "label value"
 _ATLAS_.labels = {
-	"FPm_L", 1,
-	"FPm_R", 2
+	"FPm_L": 1,
+	"FPm_R": 2
   // "Accumbens area": 26,
   // "Amygdala": 18,
   // "Caudate": 11,
