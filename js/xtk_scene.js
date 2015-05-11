@@ -161,7 +161,7 @@ _ATLAS_.labels = {
 for (m in _ATLAS_.meshes) {
 
 	var _meshes = [
-        "Model_1_Precentral_L.vtk"
+        "Model_1_Precentral_L.vtk",
         "Model_2_Precentral_R.vtk",
         "Model_3_Frontal_Sup_L.vtk",
         "Model_4_Frontal_Sup_R.vtk",
