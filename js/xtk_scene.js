@@ -19,8 +19,8 @@ _ATLAS_.infoWindow = null;
 
 // create dictionary "label name" : "label value"
 _ATLAS_.labels = {
-	"Precentral_L": 1,
-	"Precentral_R": 2,
+"Precentral_L": 1,
+"Precentral_R": 2,
 "Frontal_Sup_L":3 ,
 "Frontal_Sup_R":4 ,
 "Frontal_Sup_Orb_L":5 ,
@@ -161,15 +161,15 @@ _ATLAS_.labels = {
 for (m in _ATLAS_.meshes) {
 
 	var _meshes = [
-        "Model_1_Precentral_L.vtk",
-        "Model_2_Precentral_R.vtk",
-        "Model_3_Frontal_Sup_L.vtk",
-        "Model_4_Frontal_Sup_R.vtk",
-        "Model_5_Frontal_Sup_Orb_L.vtk",
-        "Model_6_Frontal_Sup_Orb_R.vtk",
-        "Model_7_Frontal_Mid_L.vtk",
-        "Model_8_Frontal_Mid_R.vtk",
-        "Model_9_Frontal_Mid_Orb_L.vtk"
+        "Model_1_Precentral-L.vtk",
+        "Model_2_Precentral-R.vtk",
+        "Model_3_Frontal-Sup-L.vtk",
+        "Model_4_Frontal-Sup-R.vtk",
+        "Model_5_Frontal-Sup_Orb_L.vtk",
+        "Model_6_Frontal-Sup_Orb_R.vtk",
+        "Model_7_Frontal-Mid-L.vtk",
+        "Model_8_Frontal-Mid-R.vtk",
+        "Model_9_Frontal-Mid-Orb-L.vtk"
 		// "Model_1_Left-Frontal-Medial.vtk",
 		// "Model_2_Right-Frontal-Medial.vtk"
 		// "Model_26_Left-Accumbens-area.vtk",
